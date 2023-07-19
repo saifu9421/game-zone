@@ -267,7 +267,62 @@ border: 10px solid #FFF;
     position: relative;
     right: 90px;
   }
- 
+
+
+  /* section5 style */
+
+  .section5{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    margin-bottom: 20px;
+  }
+  .title-h5{
+    color: #FFF;
+font-family: open Sans;
+font-size: 3rem;
+font-weight: 700;
+margin-bottom: 10px;
+  }
+  .section-peara{
+    color: #FFF;
+font-family: open sans;
+font-size: 1rem;
+font-weight: 400;
+line-height: 20px;
+margin-bottom: 20px;
+  } 
+  
+  #section-img6{
+       width: 700px;
+  }
+   .section-div5{
+    margin-left: 20px; 
+       width: 1000px;
+   }
+       .btn5{
+  font-family: open Sans;
+font-size: 18px;
+font-weight: 600;
+text-transform: uppercase;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #FFF;
+border: none;
+margin-top: 20px;
+       }
+       .section5-h4{
+  color: #FFF;
+font-family: open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; 
+       }
   /* mobile dicice */
 
 @media screen and (max-width:576px) {
@@ -277,7 +332,18 @@ border: 10px solid #FFF;
            header{
             padding: 10px;
            }
-             .section4{
+           .section-div5{
+        margin-left: 10px;
+            width: 100%;
+            padding: 10px;
+            overflow-x: hidden;
+           }
+           #section-img6{
+            width: 100%;
+            height: auto;
+            overflow-x: hidden;
+           }
+             .section4, .section5{
              flex-direction: column;
              }
            .img4{
@@ -344,7 +410,17 @@ border: 10px solid #FFF;
    header{
     padding: 10px;
    }
-     .section4{
+   .section-div5{
+    width: 100%;
+    padding: 10px;
+    overflow-x: hidden;
+   }
+   #section-img6{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+
+     .section4,.section5{
      flex-direction: column;
      }
      .img5{

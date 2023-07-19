@@ -290,7 +290,6 @@ margin-bottom: 10px;
 font-family: open sans;
 font-size: 1rem;
 font-weight: 400;
-line-height: 20px;
 margin-bottom: 20px;
   } 
   
@@ -323,6 +322,44 @@ font-style: normal;
 font-weight: 600;
 line-height: 40px; 
        }
+
+
+       /* butto style */
+        .section6{
+          width: 100%;
+          height: 427px;
+        }
+       .first-btn{
+      text-align: center;
+        margin-right: 50px;
+        margin-bottom: 10px;
+        padding: 10px;
+       }
+       .second-btn{
+      margin-bottom: 10px;
+        text-align: center;
+        margin-right: 20px;
+       }
+   h2{
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+   }
+   
+       .btn6{
+       border: none;
+    color: #0B0223;
+font-family: open Sans;
+font-size: 10px;
+border-radius: 50px;
+cursor: pointer;
+background: #ffffff;
+       }
+    .btn6:hover{
+      color:#FFF;
+      background-color: #FF42A5;
+    }
   /* mobile dicice */
 
 @media screen and (max-width:576px) {
@@ -332,10 +369,23 @@ line-height: 40px;
            header{
             padding: 10px;
            }
+           .btn6{
+            display: inline-block;
+            left:-60px;
+            font-size:0.875em;
+            margin:0,auto
+
+
+           }
+      .section6{
+         width: 100%;
+         height: auto;
+      }
+           .section-pear{
+            overflow-x: hidden;
+           }
            .section-div5{
-        margin-left: 10px;
-            width: 100%;
-            padding: 10px;
+            width: auto;
             overflow-x: hidden;
            }
            #section-img6{
@@ -370,9 +420,11 @@ line-height: 40px;
            }
            .section2{
             flex-direction: column;
+
            }
            .contant{
           text-align: center;
+          align-items: center;
           gap:20px;
            }
 
@@ -403,16 +455,16 @@ line-height: 40px;
 
 
 /* tablate divice */
-@media screen and (min-width:576px) and (max-width:960px) {
+@media screen and (min-width:576px) and (max-width:960px){
   body{
     overflow-x: hidden;
    }
    header{
     padding: 10px;
    }
+
    .section-div5{
-    width: 100%;
-    padding: 10px;
+    width: auto;
     overflow-x: hidden;
    }
    #section-img6{
@@ -450,7 +502,9 @@ line-height: 40px;
     flex-direction: column;
    }
    .contant{
+    flex-direction: column;
      text-align: center;
+     align-items: center;
     gap:20px;
    }
 
@@ -478,4 +532,5 @@ gap:5px;
 flex-direction: column;
 gap:20px;
 } */
+}
 }

@@ -227,10 +227,62 @@ font-weight: 400;
       width: 100%;
       height: auto;
     }
+   
+    /* style section4*/
+    .title-section4{
+   text-align: right;
+font-family:open Sans;
+font-size: 2rem;
+font-weight: 500;
+    }
+    .play{
+      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .p-section4{
+     color: #534C64;
+text-align: right;
+font-family: open Sans;
+font-size: 1rem;
+font-weight: 300;
+    }
+
+  .section4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 10px 20px 50px;
+    gap:100px;
+  }
+  .img5{
+    border-radius: 8px;
+border: 10px solid #FFF;
+    position: relative;
+    bottom: 200px;
+  }
+  .img5{
+    position: relative;
+    right: 90px;
+  }
+ 
   /* mobile dicice */
 
 @media screen and (max-width:576px) {
            body{
+            overflow-x: hidden;
+           }
+           header{
+            padding: 10px;
+           }
+             .section4{
+             flex-direction: column;
+             }
+           .img4{
+            width:100%;
+            height: auto;
             overflow-x: hidden;
            }
            .online-game{

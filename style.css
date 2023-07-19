@@ -1,0 +1,112 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+    body{
+      min-height: 100vh;
+      width: 100vw;
+      overflow-x: hidden;
+    }
+  *{font-family: 'Open Sans', sans-serif;
+   font-family: 'Work Sans', sans-serif;
+  }
+  header{
+    padding: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); 
+  }
+  /* navication var style */
+  nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+   /* padding: 20px;  */
+  }
+  
+   .li{
+ color: #000000;
+text-align: center;
+font-size: 1rem;
+font-weight: 500;
+   }
+   .follow{
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+     height: 56px;
+     align-items: center;
+   }
+   .div2{
+    font-size: 2rem;
+    gap:3px;
+
+   }
+   #youtube{
+    color:#F61C0D;
+   }
+   #tiktok{
+      color:rgba(0, 0, 0, 0.808);
+  }
+  .navigation >ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation li{
+    list-style: none;
+
+  }
+  .navigation li a{
+    text-decoration: none;
+    margin-right: 20px;
+
+  }
+  .game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+  }
+  .game-img{
+    width: 86.041px;
+height: 40px;
+  }
+  .span-g{
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  .header-title{
+text-align: center;
+font-family: open Sans;
+font-size: 45px;
+font-weight: 700;
+  }
+.game{
+    display: flex;
+}
+
+
+
+
+
+@media screen and (max-width:576px) {
+           body{
+            overflow-x: hidden;
+           }
+          
+      nav{
+        flex-direction: column;
+        gap:5px;
+      }
+      .navigation >ul{
+        flex-direction: column;
+        gap:20px;
+      }
+
+} 
+
+

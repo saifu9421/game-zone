@@ -347,15 +347,17 @@ line-height: 40px;
     padding: 10px;
    }
    
-       .btn6{
+       
+        .btn6{
        border: none;
     color: #0B0223;
 font-family: open Sans;
 font-size: 10px;
 border-radius: 50px;
 cursor: pointer;
-background: #ffffff;
-       }
+background: #ffffff;}
+ 
+      
     .btn6:hover{
       color:#FFF;
       background-color: #FF42A5;
@@ -371,11 +373,8 @@ background: #ffffff;
            }
            .btn6{
             display: inline-block;
-            left:-60px;
-            font-size:0.875em;
-            margin:0,auto
-
-
+            block-size: inherit;
+          
            }
       .section6{
          width: 100%;
@@ -459,6 +458,10 @@ background: #ffffff;
   body{
     overflow-x: hidden;
    }
+   .btn6{
+    display: inline-block;
+    block-size: inherit;
+  
    header{
     padding: 10px;
    }

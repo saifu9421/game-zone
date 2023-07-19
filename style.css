@@ -163,7 +163,7 @@ margin-top: 10px;
       justify-content: center;
       align-items: center;
     }
-     .contant-h1{
+     .contant>.contant-h1{
 font-family: open Sans;
 font-size: 3rem;
 font-weight: 700;
@@ -172,23 +172,69 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
      }
-   .contant-p{
+   .contant>.contant-p{
     color: #534C64;
 font-family: open Sans;
 font-size: 1.3rem;
 font-weight: 400;
    }
-   .our{
+   .contant>.our{
     color: #534C64;
 font-family: open Sans;
 font-size: 1.5rem;
 font-weight: 500;
    }
+
+  /* online game */
+  .online-title{
+    color: #0B0223;
+text-align: center;
+font-family: open Sans;
+font-size: 3rem;
+font-weight: 700;
+  }
+  .Funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .online-h4{
+    color: #534C64;
+text-align: center;
+font-family: open Sans;
+font-size: 1.5rem;
+font-weight: 400;
+  }
+  .online-game{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    padding: 50px 100px 50px 100px;
+  }
+  .img-title{
+    color: #534C64;
+font-family: open Sans;
+font-size: 1rem;
+font-weight: 400;
+  }
+    .online-img{
+      width: 100%;
+      height: auto;
+    }
   /* mobile dicice */
 
 @media screen and (max-width:576px) {
            body{
             overflow-x: hidden;
+           }
+           .online-game{
+            grid-template-columns: repeat(1,1fr);
            }
            .img2{
             width: 100%;
@@ -234,7 +280,9 @@ font-weight: 500;
   body{
     overflow-x: hidden;
    }
-   
+   .online-game{
+    grid-template-columns: repeat(1,1fr);
+   }
    .img2{
     width: 100%;
     height: auto;

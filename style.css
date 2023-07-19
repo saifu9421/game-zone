@@ -285,6 +285,15 @@ border: 10px solid #FFF;
             height: auto;
             overflow-x: hidden;
            }
+           .img5{
+            position: relative;
+            bottom: 100px;
+            width: 50%;
+            right: 50px;
+            height: auto;
+            overflow-x: hidden;
+            padding-left: 10px;
+           }
            .online-game{
             grid-template-columns: repeat(1,1fr);
            }
@@ -330,6 +339,27 @@ border: 10px solid #FFF;
 /* tablate divice */
 @media screen and (min-width:576px) and (max-width:960px) {
   body{
+    overflow-x: hidden;
+   }
+   header{
+    padding: 10px;
+   }
+     .section4{
+     flex-direction: column;
+     }
+     .img5{
+      position: relative;
+      bottom: 200px;
+      right: 100px;
+      width: 50%;
+      height: auto;
+      overflow-x: hidden;
+      padding-left: 20px;
+     }
+
+   .img4{
+    width:100%;
+    height: auto;
     overflow-x: hidden;
    }
    .online-game{

@@ -90,14 +90,91 @@ font-weight: 700;
 }
 
 
+    /* main benner style */
 
+   .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+   }
 
+    .banner-h1{
+     color: #0B0223;
+font-family: open Sans;
+font-size: 2rem;
+font-weight:600;
+text-transform: uppercase;
+    }
+  .banner-style-h1{
+font-family: open Sans;
+font-size: 4rem;
+font-weight: 800;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+ background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  }
+
+  .similar-h4{
+    color: #534C64;
+font-family: open Sans;
+font-size: 1.5rem;
+font-weight: 400;
+text-transform: lowercase;
+margin-bottom: 2px;
+  }
+
+  .btn-primary{
+   color: #FFF;
+font-family: open Sans;
+padding: 15px 30px;
+font-size: 1rem;
+font-weight: 400;
+text-transform: uppercase;
+border-radius: 50px;
+border: none;
+margin-top: 10px;
+background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  }
+
+  .btn-secound{
+    padding: 15px 30px;
+    color: #FFF;
+font-family: open Sans;
+font-size: 1rem;
+font-weight: 400;
+border-radius: 50px;
+border: none;
+background: #4EC5F7;
+text-transform: uppercase;
+margin-top: 10px;
+  }
+
+  .main-title{
+    background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+  }
+  /* mobile dicice */
 
 @media screen and (max-width:576px) {
            body{
             overflow-x: hidden;
            }
-          
+           .banner{
+            flex-direction: column-reverse;
+           }
+           .main-title{
+            align-items: flex-start;
+            align-items: center;
+            justify-content: center;
+           }
+           .img{
+                width: 100%;
+                height: 350px;
+                overflow: hidden;
+           }
+            
       nav{
         flex-direction: column;
         gap:5px;
@@ -107,6 +184,37 @@ font-weight: 700;
         gap:20px;
       }
 
-} 
+    }
+
+
+/* tablate divice */
+@media screen and (min-width:576px) and (max-width:960px) {
+  body{
+    overflow-x: hidden;
+   }
+   .img{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+}
+
+.banner{
+  flex-direction: column;
+ }
+ .main-title{
+  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+ }
+
+nav{
+flex-direction: column;
+gap:5px;
+}
+ /* .navigation >ul{
+flex-direction: column;
+gap:20px;
+} */
+}
 
 
